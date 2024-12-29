@@ -11,6 +11,7 @@ Page({
     tabs: {
       zh_CN: ['可领', '已领', '失效', '口令'],
       en: ['Can Fetch', 'Available', 'Invalid', 'Exchange'],
+      jp: ['受け取る', '利用可能', '無効', '交換'],
     },
     activeIndex: 0,
 

@@ -6,7 +6,7 @@ function getLanguage() {
   if (Language) {
     return Language
   }
-  const allowLanguage = ['zh_CN', 'en'] // 目前支持的语言包
+  const allowLanguage = ['zh_CN', 'en', 'jp'] // 目前支持的语言包
   const appBaseInfo = wx.getAppBaseInfo()
   let _language = appBaseInfo.language || 'zh_CN'
   if (!allowLanguage.includes(_language)) {
@@ -65,6 +65,10 @@ module.exports = {
     {
       name: 'English',
       code: 'en'
+    },
+    {
+      name: '日本語',
+      code: 'jp'
     }
   ]
 }

@@ -107,7 +107,7 @@
 }
 .user-code .txt {
   font-size: 24rpx;
-  color: #333;
+  color: rgb(240, 236, 199);
 }
 
 .coupon-box{

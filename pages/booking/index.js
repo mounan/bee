@@ -11,6 +11,7 @@ Page({
     persionNum: { // 每种语言列举
       zh_CN: ['1-2人', '3-4人', '5-8人', '8人以上'],
       en: ['1-2 Person', '3-4 Person', '5-8 Person', 'More than 8'],
+      jp: ['1-2人', '3-4人', '5-8人', '8人以上'],
     },
     persionNumIndex: 0,
     showDatetimePop: false,

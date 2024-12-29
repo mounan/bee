@@ -359,8 +359,8 @@ module.exports = {
     recharge: '在线充值',
     select: '选择支付方式',
     wx: '微信支付',
-    alipay: '支付宝支付',
-    alipayQrcodeText: '长按图片保存，然后使用支付宝扫一扫付款',
+    alipay: 'Paypay支付',
+    alipayQrcodeText: '请用Paypay扫一扫付款，付款后在‘我的’页面发送付款截图',
     notSupport: '暂不支持该支付方式',
   }
 }

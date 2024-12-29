@@ -359,8 +359,8 @@ module.exports = {
     recharge: 'Recharge',
     select: 'Select Payment',
     wx: 'WxPay',
-    alipay: 'Alipay',
-    alipayQrcodeText: 'Long press the picture to save, and then use Alipay to scan',
+    alipay: 'Paypay',
+    alipayQrcodeText: 'Please scan with PayPay to make the payment. After the payment, send a screenshot of the payment page from the "My" section.',
     notSupport: 'This payment method is not currently supported',
   }
 }

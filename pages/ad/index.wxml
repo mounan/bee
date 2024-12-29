@@ -44,15 +44,6 @@
 		clearable
     bind:change="mobileChange"
   />
-	<picker mode="multiSelector" range="{{pickerRegionRange}}" range-key="name" value="{{pickerSelect}}" bindchange="bindchange" bindcolumnchange="bindcolumnchange">
-		<van-field
-			value="{{ showRegionStr }}"
-			label="{{ $t.ad_index.region }}"
-			readonly
-			is-link
-		/>
-	</picker>
-  <van-cell title="{{ $t.ad_index.location }}" value="{{ addressData.latitude ? (addressData.latitude + ',' + addressData.longitude) : $t.common.select }}" is-link bind:click="chooseLocation" />
 	<van-field
     value="{{ addressData.address }}"
     label="{{ $t.ad_index.address }}"

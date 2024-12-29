@@ -202,7 +202,6 @@ Page({
             if (res.code == 0) {
               that.onShow(); //重新获取订单列表
             }              
-            
           })
         }
       }

@@ -14,13 +14,13 @@
         <van-cell icon="https://dcdn.it120.cc/2024/08/29/b327bac1-bfe6-4083-8c56-e2628a7273df.png" title="{{ $t.payment.wx }}" clickable data-name="wx" bind:click="payTypeClick">
           <van-radio slot="right-icon" name="wx" />
         </van-cell>
-        <van-cell wx:if="{{ alipayOpenMod == '1' }}" icon="https://dcdn.it120.cc/2024/08/29/b6fdcdd9-bb24-46fd-b066-1a41c0ea8047.png" title="{{ $t.payment.alipay }}" clickable data-name="alipay" bind:click="payTypeClick">
+        <van-cell icon="https://dcdn.it120.cc/2024/12/30/377670e5-4576-4fb2-b03e-dd2954394ecb.jpg" title="{{ $t.payment.alipay }}" clickable data-name="alipay" bind:click="payTypeClick">
           <van-radio slot="right-icon" name="alipay" />
         </van-cell>
       </van-cell-group>
     </van-radio-group>
-    <block wx:if="{{ alipayQrcode }}">
-      <image src="{{ alipayQrcode }}" mode="widthFix" class="alipayQrcode" show-menu-by-longpress></image>
+    <block>
+      <image src="https://dcdn.it120.cc/2024/12/30/0f298035-ab51-4479-bba8-e34b5bcf0b5d.png" mode="widthFix" class="alipayQrcode" show-menu-by-longpress></image>
       <view class="alipayQrcodeText">{{ $t.payment.alipayQrcodeText }}</view>
     </block>
     
